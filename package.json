@@ -1,0 +1,20 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "Command line interface fir managing customers. Uses Mongoose, Commander.js and Inquirer.js. YouTube tutorial [here](https://www.youtube.com/watch?v=v2GKt39-LPA&t=1303s)",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "bin": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.1.2"
+  }
+}
